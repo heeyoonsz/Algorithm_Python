@@ -23,6 +23,7 @@ graph = [
 ]
 
 # 방문 정보 스택
+# 방문 정보 저장할 리스트 초기화
 visited = [False] * 9
 
 dfs(graph, 1, visited)

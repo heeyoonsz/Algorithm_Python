@@ -17,8 +17,8 @@ def bf_match(txt: str, pat: str) -> int:
 
 
 if __name__ == '__main__':
-    s1 = input('텍스트를 입력하세요')
-    s2 = input('패턴을 입력하세요')
+    s1 = input('텍스트를 입력하세요 ')
+    s2 = input('패턴을 입력하세요 ')
 
     idx = bf_match(s1, s2)
 

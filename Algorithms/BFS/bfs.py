@@ -5,7 +5,7 @@ def bfs(graph, start,visited):
   
   visited[start] = True
 
-  # 큐가 빌 때까지
+  # @@ 큐가 빌 때까지
   while queue:
     v = queue.popleft()
     print(v, end='')
