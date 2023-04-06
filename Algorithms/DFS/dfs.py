@@ -1,4 +1,6 @@
 # DFS 메서드 정의
+
+#그래프 리스트, 방문할 노드, 방문처리여부
 def dfs(graph, v, visited):
   # 현재 노드를 방문 처리
   visited[v] = True
@@ -26,4 +28,5 @@ graph = [
 # 방문 정보 저장할 리스트 초기화
 visited = [False] * 9
 
+#1번 노드부터 탐색
 dfs(graph, 1, visited)
