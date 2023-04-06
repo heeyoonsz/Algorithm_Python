@@ -16,7 +16,7 @@ def selection_sort(a: MutableSequence) -> None:
 
 
 if __name__ == '__main__':
-    print('단순 선책 정렬을 수행합니다.')
+    print('단순 선택 정렬을 수행합니다.')
     num = int(input('원소 수를 입력하세요 : '))
     x = [None] * num
 
